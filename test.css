@@ -6,3 +6,23 @@
     color: rgb(151, 180, 72);
     cursor: pointer;
 }
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid grey;
+    margin-top: 10px;     
+}
+.box{
+    padding: 20px;
+    background-color: blueviolet;
+    width: 110px;
+    height: 150px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: rgb(68, 43, 43);
+}

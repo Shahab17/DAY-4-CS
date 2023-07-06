@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgba(61, 58, 58, 0.815);
+    padding: 10px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menus{
+    display: flex;
+}
+.log{
+    width: 110px;
+    font-weight: bolder;
+
+}
+.item{
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 20px;
+}
+.item:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+.person{
+    width: 250px;
+
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    /* border: 2px solid grey; */
+    background-color: beige;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.click{
+    padding: 10px 20px;
+    background-color: rgb(25, 25, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.click:hover{
+    background-color: rgb(190, 149, 34);
+}
