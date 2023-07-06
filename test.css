@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.test{
+    color: rgb(151, 180, 72);
+    cursor: pointer;
+}
