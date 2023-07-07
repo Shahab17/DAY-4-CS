@@ -104,3 +104,44 @@
     background-color: rgb(59, 209, 209);
     cursor: pointer;
 }
+.services{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 50px; */
+    padding: 30px;
+}
+.box{
+    width: 200px;
+    height: 250px;
+    box-shadow: 4px 4px 15px grey;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.dev{
+    width: 80px;
+    padding: 15px;
+    margin-top: 5px;
+    
+    
+}
+.service-head{
+   margin-top: 5px;
+  margin-bottom: 5px;
+    
+}
+.service-para{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
